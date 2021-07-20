@@ -26,7 +26,7 @@ public class GuestbookController {
 
 		model.addAttribute("guestList", guestList);
 
-		return "/WEB-INF/views/list.jsp";
+		return "/WEB-INF/list.jsp";
 
 	}
 
